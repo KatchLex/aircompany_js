@@ -14,7 +14,7 @@ class Airport {
     getPassengerPlanes() {
         let passengerPlanes = [];
         this.planes.forEach(plane => {
-            if (plane instanceof PassengerPlane){
+            if (plane instanceof PassengerPlane) {
                 passengerPlanes.push(plane)
             }
         });
